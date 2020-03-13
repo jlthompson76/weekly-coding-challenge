@@ -19,13 +19,13 @@ function loginAuth () {
                 document.getElementById("login").innerHTML = "Wrong Password - Permission Denied";
             }
 
-    } else if (userName = "") {
+    } else if (userName == "") {
         alert(`Cancelled`);
         document.getElementById("login").innerHTML = "No Username Entered - Operation Cancelled";
 
     } else {
-        document.getElementById("login").innerHTML = "Identity Unknown - Permission Denied";
         alert(`I don't know you`);
+        document.getElementById("login").innerHTML = "Identity Unknown - Permission Denied";
     }
 
 }
