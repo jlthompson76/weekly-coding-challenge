@@ -6,6 +6,7 @@ End Date:
 From Moodle:
 
 Login Authentication
+
 Write a script that will ask a visitor for a username using prompt.
 
 The username is checked as follows:
