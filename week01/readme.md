@@ -1,24 +1,25 @@
 ## Week #1 - Login Authentication
 
 Start Date: March 11, 2020
-End Date: March 13, 2020
+End Date: March 14, 2020
 
-From Moodle:
+_From Moodle:_
 
-Login Authentication
+### Login Authentication
 
 Write a script that will ask a visitor for a username using prompt.
 
 The username is checked as follows:
 
-If the visitor enters "admin" as a username, then prompt for a password
-If they submit an empty string for the username, alert “Canceled”
-If it’s any other string, then alert “I don’t know you”.
-If they really are the admin, their password is checked as follows:
+* If the visitor enters `"admin"` as a username, then `prompt` for a password
+* If they submit an empty string for the username, `alert` “Canceled”
+* If it’s any other string, then `alert` “I don’t know you”.
 
-If password equals “TheMaster”, then alert “Welcome!”,
-If password is another string, alert “Wrong password”,
-For an empty string, alert “Canceled”
+If they really are the `admin`, their password is checked as follows:
+
+* If password equals “TheMaster”, then `alert` “Welcome!”,
+* If password is another string, `alert` “Wrong password”,
+* For an empty string, `alert` “Canceled”
 
 ## Challenge Description
 
