@@ -1,1 +1,31 @@
-// This is just a example script template
+function loginAuth () {
+
+    let userName = prompt(`Please enter your username:`);
+
+    if (userName === "admin") {
+
+        let passWord = prompt(`Please enter your password:`);
+
+            if (passWord === "TheMaster") {
+                document.getElementById("login").innerHTML = "Identity Confirmed - Permission Granted";
+                alert(`Welcome!`);
+
+            } else if (passWord == "") {
+                alert(`Cancelled`);
+                document.getElementById("login").innerHTML = "No Password Entered - Operation Cancelled";
+
+            } else {
+                alert(`Wrong password`)
+                document.getElementById("login").innerHTML = "Wrong Password - Permission Denied";
+            }
+
+    } else if (userName == "") {
+        alert(`Cancelled`);
+        document.getElementById("login").innerHTML = "No Username Entered - Operation Cancelled";
+
+    } else {
+        alert(`I don't know you`);
+        document.getElementById("login").innerHTML = "Identity Unknown - Permission Denied";
+    }
+
+}

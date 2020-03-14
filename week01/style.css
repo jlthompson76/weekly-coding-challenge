@@ -1,1 +1,17 @@
-/* This is just a example css template */
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: firebrick;
+    color: white;
+    font-family: 'Marcellus SC', serif;
+    font-weight: bold;
+    font-size: 225%;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px 50px;
+}
