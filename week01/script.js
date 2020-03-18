@@ -11,8 +11,8 @@ function loginAuth () {
                 alert(`Welcome!`);
 
             } else if (passWord == "") {
-                alert(`Cancelled`);
-                document.getElementById("login").innerHTML = "No Password Entered - Operation Cancelled";
+                alert(`Canceled`);
+                document.getElementById("login").innerHTML = "No Password Entered - Operation Canceled";
 
             } else {
                 alert(`Wrong password`)
@@ -20,8 +20,8 @@ function loginAuth () {
             }
 
     } else if (userName == "") {
-        alert(`Cancelled`);
-        document.getElementById("login").innerHTML = "No Username Entered - Operation Cancelled";
+        alert(`Canceled`);
+        document.getElementById("login").innerHTML = "No Username Entered - Operation Canceled";
 
     } else {
         alert(`I don't know you`);
