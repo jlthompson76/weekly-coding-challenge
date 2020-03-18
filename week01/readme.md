@@ -1,7 +1,7 @@
 ## Week #1 - Login Authentication
 
 Start Date: March 11, 2020
-End Date: March 14, 2020
+End Date: March 18, 2020
 
 _From Moodle:_
 
